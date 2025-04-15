@@ -1,0 +1,19 @@
+EcmaScript - newly added features in JS
+ECMA - Europian Computer Manufactures Association
+this sets the standards of js is dependent upon and follows
+let const rest spread template literals classes modules all are enhancements in JS
+
+
+features:
+1. let and const keyword
+2. Arrow functions
+3. default parameters
+4. template literals and multi line strings
+5. destructuring
+6. higher order func.
+7. promises
+8. classes
+9. modules
+
+
+
