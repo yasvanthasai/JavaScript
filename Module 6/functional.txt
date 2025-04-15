@@ -1,0 +1,24 @@
+to handle functionsi a better way
+way of writing code when it's pure functions multi-paradigm language
+
+key features
+imperative and declarative ways of writing codepure functions and what are side effects
+higher order functions (map, filter, reduce, etc)
+composition
+closures
+currying
+
+
+imperative = how to go about a problem = approach, strcuture, logic
+
+declarative = what to achive from the problem = 
+
+
+pure function is a function given the same input. returns the same output
+
+
+callback functions:
+is a function that is passed into another function as argument. This function can be invoked at a laterstage of time.
+functions can be passed as arguments.
+
+
