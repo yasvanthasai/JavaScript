@@ -5,6 +5,7 @@
 //add(2,4) - this won't work
 
 var a = 'hi'
+greet()
 function greet(){
     console.log('hello from function')
 }
