@@ -1,0 +1,20 @@
+oops
+encap
+anstraction
+poly
+inheritance
+
+js is not oo language, but we can write oop code by using prototype object
+
+oops module:
+this keyword
+constructor functionsclasses
+classical interface
+encapsulation
+polyprototype object
+prototypal inheritance
+call apply bind
+
+
+this keyword:
+
