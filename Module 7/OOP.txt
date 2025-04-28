@@ -17,4 +17,31 @@ call apply bind
 
 
 this keyword:
+Node.js (Non-Strict Mode)
+
+console.log(this) → {}
+function → Global object
+obj → fn → Object itself
+obj → fn → fn → Global object
+
+Node.js (Strict Mode)
+
+console.log(this) → {}
+function → undefined
+obj → fn → Object itself
+obj → fn → fn → undefined
+
+Browser (Non-Strict Mode)
+
+console.log(this) → window object
+function → window object
+obj → fn → Object itself
+obj → fn → fn → window object
+
+Browser (Strict Mode)
+
+console.log(this) → window object
+function → undefined
+obj → fn → Object itself
+obj → fn → fn → undefined
 
