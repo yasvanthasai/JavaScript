@@ -15,5 +15,5 @@ Person.prototype.getAge = function(){
 let person1 = new Person('yash',23)
 let person2 = new Person('yahsvbn',89)
 
-console.log(person1)
+console.log(person1.getAge)
 console.log(person2)
