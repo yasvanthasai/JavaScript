@@ -1,1 +1,15 @@
-which means sending multiple requests and make them run simultaniously
+Synchronous means it will use a single thread so only one operation or program willl run at a time.
+Sync is blocking, it will send the server one request at a time and will wait for the request to be answered by the server.
+
+Async is non blocking, which means it will send multiple requests to a server at a time.
+Increases throughput becasue multiple operations can run at a time.
+
+There's no multithreading architecture like java in js and nodesjs
+
+Async is used while you build a scalable applications.
+
+topics in async
+callbacks
+callback queue and event loop
+promisesasync/await
+microtask queuesequential and parallel execution of code
