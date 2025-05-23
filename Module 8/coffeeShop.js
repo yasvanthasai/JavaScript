@@ -33,10 +33,14 @@ function processOrder(order){
 
 async function serveOrder(){
     try{
-        const order = await placeOrder('coffee')
+        const order = await placeOrder('soup')
         console.log(order)
-        const processedOrder = await processOrder(order)
-        console.log(processedOrder)
+        try {
+            const processedOrder = await processOrder(order)
+            console.log(processedOrder)
+        } catch (error) {
+            console.log(error)
+        }
     }catch(error){
         console.log(error)
     }
@@ -44,3 +48,7 @@ async function serveOrder(){
 //await is used to wait for the promise to be resolved
 //async function is used to define an asynchronous function
 serveOrder()
+
+
+//promises code will be executed first than the callback code
+//callback code will be executed after the promise code
